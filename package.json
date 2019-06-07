@@ -1,0 +1,19 @@
+{
+  "name": "hmr-indicator",
+  "version": "1.0.0",
+  "description": "Visible indication of hot app reload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-entin/hmr-indicator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-entin/hmr-indicator/issues"
+  },
+  "homepage": "https://github.com/alexander-entin/hmr-indicator#readme"
+}
