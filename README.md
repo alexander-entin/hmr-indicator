@@ -3,7 +3,9 @@ Visible indication of hot app reload
 
 ## Install
 `npm i -D hmr-indicator`
+
 Or
+
 `yarn add -D hmr-indicator`
 
 ## Use
@@ -11,14 +13,14 @@ Or
 if (module.hot) {
     module.hot.accept()
     if (process.env.NODE_ENV === 'development') {
-        require('utils/hmrIndicator').default()
+        require('hmrIndicator').default()
     }
 }
 
 ```
 ## Customize
 ```javascript
-require('utils/hmrIndicator').default({
+require('hmrIndicator').default({
     favicon: false,
     center: { text: 'HMR!' },
 })
